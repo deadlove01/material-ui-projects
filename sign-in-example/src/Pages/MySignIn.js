@@ -13,7 +13,7 @@ import {
 } from "@mui/material";
 import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
 import { Container } from "@mui/system";
-import dataList from "./data.json";
+import dataList from "../data.json";
 
 const Copyright = (props) => {
   return (
