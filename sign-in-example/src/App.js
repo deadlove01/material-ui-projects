@@ -13,6 +13,8 @@ import SignInSide from "./Examples/sign-in-side";
 import MySignInSide from "./Pages/MySignInSide";
 import Pricing from "./Examples/pricing";
 import MyPricing from "./Pages/MyPricing";
+import Album from "./Examples/album";
+import MyAlbum from "./Pages/MyAlbum";
 
 
 function App() {
@@ -34,7 +36,9 @@ function App() {
         {/* <SignInSide /> */}
         {/* <MySignInSide /> */}
         {/* <Pricing /> */}
-        <MyPricing />
+        {/* <MyPricing /> */}
+        <MyAlbum />
+        {/* <Album /> */}
       </ThemeProvider>
     </>
   );
