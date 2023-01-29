@@ -16,6 +16,8 @@ import MyPricing from "./Pages/MyPricing";
 import Album from "./Examples/album";
 import MyAlbum from "./Pages/MyAlbum";
 
+import TodoMain from "./Components/TodoMain";
+
 
 function App() {
   const theme = createTheme();
@@ -37,8 +39,9 @@ function App() {
         {/* <MySignInSide /> */}
         {/* <Pricing /> */}
         {/* <MyPricing /> */}
-        <MyAlbum />
+        {/* <MyAlbum /> */}
         {/* <Album /> */}
+        <TodoMain />
       </ThemeProvider>
     </>
   );
