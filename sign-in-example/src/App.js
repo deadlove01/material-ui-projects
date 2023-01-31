@@ -16,7 +16,7 @@ import MyPricing from "./Pages/MyPricing";
 import Album from "./Examples/album";
 import MyAlbum from "./Pages/MyAlbum";
 
-import TodoMain from "./Components/TodoMain";
+import TodoMain from "./Components/Containers/TodoMain";
 
 
 function App() {
